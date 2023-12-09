@@ -12,7 +12,7 @@ import classes from './index.module.scss'
 export const ThemeSelector: React.FC = () => {
   const selectRef = React.useRef<HTMLSelectElement>(null)
   const { setTheme } = useTheme()
-  const [show, setShow] = React.useState(true)
+  const [show, setShow] = React.useState(false)
 
   const onThemeChange = (themeToSet: Theme & 'auto') => {
     if (themeToSet === 'auto') {

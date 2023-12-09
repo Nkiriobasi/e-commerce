@@ -83,7 +83,6 @@ export const CartPage: React.FC<{
 
                       return (
                         <CartItem
-                          key={title}
                           product={product}
                           title={title}
                           metaImage={metaImage}

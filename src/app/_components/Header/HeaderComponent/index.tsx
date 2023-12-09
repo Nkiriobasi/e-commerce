@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 'use client'
 
 import React from 'react'
@@ -24,7 +23,7 @@ const HeaderComponent = ({ header }: { header: Header }) => {
     >
       <Gutter className={classes.wrap}>
         <Link href="/">
-          <Image src="/logo-white.svg" alt="logo" width={170} height={50} />
+          <Image src="/logo-black.svg" alt="logo" width={170} height={50} />
         </Link>
 
         <HeaderNav header={header} />
